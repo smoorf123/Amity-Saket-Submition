@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/color"
+        android:contentDescription="@string/todo" />
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEX: \nRGB"
+        android:textSize="25sp"
+        android:textColor="#000"/>
+</LinearLayout>

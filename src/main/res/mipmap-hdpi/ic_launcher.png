@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="androidx.viewpager2.widget.CompositeOnPageChangeCallback void onPageScrollStateChanged(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_IDLE, androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_DRAGGING, androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_SETTLING}" />
+    </annotation>
+  </item>
+  <item name="androidx.viewpager2.widget.ScrollEventAdapter mAdapterState">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.viewpager2.widget.ScrollEventAdapter.STATE_IDLE, androidx.viewpager2.widget.ScrollEventAdapter.STATE_IN_PROGRESS_MANUAL_DRAG, androidx.viewpager2.widget.ScrollEventAdapter.STATE_IN_PROGRESS_SMOOTH_SCROLL, androidx.viewpager2.widget.ScrollEventAdapter.STATE_IN_PROGRESS_IMMEDIATE_SCROLL, androidx.viewpager2.widget.ScrollEventAdapter.STATE_IN_PROGRESS_FAKE_DRAG}" />
+    </annotation>
+  </item>
+  <item name="androidx.viewpager2.widget.ScrollEventAdapter mScrollState">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_IDLE, androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_DRAGGING, androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_SETTLING}" />
+    </annotation>
+  </item>
+  <item name="androidx.viewpager2.widget.ScrollEventAdapter void dispatchStateChanged(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_IDLE, androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_DRAGGING, androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_SETTLING}" />
+    </annotation>
+  </item>
+  <item name="androidx.viewpager2.widget.ViewPager2 int getOffscreenPageLimit()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.viewpager2.widget.ViewPager2.OFFSCREEN_PAGE_LIMIT_DEFAULT}" />
+    </annotation>
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="1" />
+    </annotation>
+  </item>
+  <item name="androidx.viewpager2.widget.ViewPager2 int getOrientation()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.viewpager2.widget.ViewPager2.ORIENTATION_HORIZONTAL, androidx.viewpager2.widget.ViewPager2.ORIENTATION_VERTICAL}" />
+    </annotation>
+  </item>
+  <item name="androidx.viewpager2.widget.ViewPager2 int getScrollState()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_IDLE, androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_DRAGGING, androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_SETTLING}" />
+    </annotation>
+  </item>
+  <item name="androidx.viewpager2.widget.ViewPager2 mOffscreenPageLimit">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.viewpager2.widget.ViewPager2.OFFSCREEN_PAGE_LIMIT_DEFAULT}" />
+    </annotation>
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="1" />
+    </annotation>
+  </item>
+  <item name="androidx.viewpager2.widget.ViewPager2 void setOffscreenPageLimit(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.viewpager2.widget.ViewPager2.OFFSCREEN_PAGE_LIMIT_DEFAULT}" />
+    </annotation>
+    <annotation name="androidx.annotation.IntRange">
+      <val name="from" val="1" />
+    </annotation>
+  </item>
+  <item name="androidx.viewpager2.widget.ViewPager2 
